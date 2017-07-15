@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="headtabs">
+        <item>最热</item>
+        <item>最新</item>
+        <item>欧美</item>
+        <item>日系</item>
+        <item>女神</item>
+    </string-array>
+    <string-array name="self_tabs">
+        <item>穿搭日志</item>
+        <item>消息</item>
+    </string-array>
+    <string-array name="style_tabs">
+        <item>同风格搭配</item>
+        <item>同风格单品</item>
+    </string-array>
+    <string-array name="item_mostpopular_same_style_tabs">
+        <item>欧美风</item>
+        <item>春秋</item>
+        <item>长沙</item>
+        <item>165</item>
+        <item>欧美风</item>
+        <item>春秋</item>
+        <item>长沙</item>
+        <item>165</item>
+        <item>欧美风</item>
+    </string-array>
+    <string-array name="item_mostpopular_single_style_tabs">
+        <item>小方跟</item>
+        <item>风衣</item>
+        <item>绿色</item>
+        <item>翻领</item>
+        <item>皮衣</item>
+        <item>牛仔衣</item>
+        <item>小方跟</item>
+        <item>风衣</item>
+        <item>绿色</item>
+    </string-array>
+    <string-array name="camera_modify_tabs">
+        <item>原图</item>
+        <item>组合1</item>
+        <item>组合2</item>
+        <item>组合3</item>
+        <item>组合4</item>
+        <item>组合5</item>
+        <item>组合6</item>
+        <item>组合7</item>
+        <item>组合8</item>
+        <item>组合9</item>
+        <item>组合10</item>
+        <item>组合11</item>
+        <item>组合12</item>
+    </string-array>
+    <string-array name="person_design_tags">
+        <item>昵称</item>
+        <item>性别</item>
+        <item>常居地</item>
+        <item>身高</item>
+        <item>体重</item>
+        <item>职业</item>
+        <item>生日</item>
+        <item>个性签名</item>
+    </string-array>
+    <string-array name="person_design_often_msg">
+        <item>昵称</item>
+        <item>性别</item>
+        <item>常居地</item>
+        <item>生日</item>
+        <item>职业</item>
+        <item>个性签名</item>
+    </string-array>
+    <string-array name="person_design_body_msg">
+        <item>测量标准</item>
+        <item>身高</item>
+        <item>体重</item>
+        <item>底围</item>
+        <item>罩杯</item>
+        <item>乳点围/胸围</item>
+        <item>实测胸底围</item>
+        <item>手臂围</item>
+        <item>肩宽</item>
+    </string-array>
+    <string-array name="person_design_waist_msg">
+        <item>体长</item>
+        <item>肩腋围</item>
+        <item>前腰节高</item>
+        <item>臂长</item>
+        <item>上裆</item>
+        <item>腰腿长</item>
+    </string-array>
+    <string-array name="person_design_head_msg">
+        <item>头围</item>
+        <item>颈围</item>
+        <item>腰围</item>
+        <item>臂围</item>
+        <item>大腿围</item>
+    </string-array>
+    <string-array name="person_design_back_msg">
+        <item>背宽</item>
+    </string-array>
+    <string-array name="person_design_body_height">
+        <item>150cm</item>
+        <item>151cm</item>
+        <item>152cm</item>
+        <item>153cm</item>
+        <item>154cm</item>
+        <item>155cm</item>
+        <item>156cm</item>
+        <item>157cm</item>
+        <item>158cm</item>
+        <item>159cm</item>
+        <item>160cm</item>
+        <item>161cm</item>
+        <item>162cm</item>
+        <item>163cm</item>
+        <item>164cm</item>
+        <item>165cm</item>
+        <item>166cm</item>
+        <item>167cm</item>
+        <item>168cm</item>
+        <item>169cm</item>
+        <item>170cm</item>
+        <item>171cm</item>
+        <item>172cm</item>
+        <item>173cm</item>
+        <item>174cm</item>
+        <item>175cm</item>
+        <item>176cm</item>
+        <item>177cm</item>
+        <item>178cm</item>
+        <item>179cm</item>
+    </string-array>
+    <string-array name="person_design_body_weight">
+        <item>40kg</item>
+        <item>41kg</item>
+        <item>42kg</item>
+        <item>43kg</item>
+        <item>44kg</item>
+        <item>45kg</item>
+        <item>46kg</item>
+        <item>47kg</item>
+        <item>48kg</item>
+        <item>49kg</item>
+        <item>50kg</item>
+        <item>51kg</item>
+        <item>52kg</item>
+        <item>53kg</item>
+        <item>54kg</item>
+        <item>55kg</item>
+        <item>56kg</item>
+        <item>57kg</item>
+        <item>58kg</item>
+        <item>59kg</item>
+        <item>60kg</item>
+        <item>61kg</item>
+        <item>62kg</item>
+        <item>63kg</item>
+        <item>64kg</item>
+        <item>65kg</item>
+        <item>66kg</item>
+        <item>67kg</item>
+        <item>68kg</item>
+        <item>69kg</item>
+        <item>70kg</item>
+        <item>71kg</item>
+        <item>72kg</item>
+        <item>73kg</item>
+        <item>74kg</item>
+        <item>75kg</item>
+        <item>76kg</item>
+        <item>77kg</item>
+        <item>78kg</item>
+        <item>79kg</item>
+        <item>80kg</item>
+        <item>81kg</item>
+        <item>82kg</item>
+        <item>83kg</item>
+        <item>84kg</item>
+        <item>85kg</item>
+        <item>86kg</item>
+        <item>87kg</item>
+        <item>88kg</item>
+        <item>89kg</item>
+    </string-array>
+    <string-array name="ask_question_head_should">
+        <item>脸太大</item>
+        <item>脸太小</item>
+        <item>脖子短</item>
+        <item>脖子粗</item>
+        <item>肩太宽</item>
+        <item>肩太窄</item>
+        <item>溜  肩</item>
+    </string-array>
+    <string-array name="ask_question_trunk_limbs">
+        <item>平    胸</item>
+        <item>大    胸</item>
+        <item>肉肉背</item>
+        <item>驼背</item>
+        <item>手臂短</item>
+        <item>手臂粗</item>
+        <item>大胃王</item>
+        <item>大肚腩</item>
+        <item>腰长</item>
+        <item>腰短</item>
+        <item>没腰线</item>
+        <item>宽PP</item>
+        <item>扁PP</item>
+        <item>大PP</item>
+        <item>大腿粗</item>
+        <item>小腿粗</item>
+        <item>大腿短</item>
+        <item>小腿短</item>
+        <item>X型腿</item>
+        <item>O型腿</item>
+        <item>大脚骨</item>
+        <item>灰趾甲</item>
+    </string-array>
+    <string-array name="ask_question_whole_body">
+        <item>矮又胖</item>
+        <item>高又壮</item>
+        <item>5-5身</item>
+        <item>身材过瘦</item>
+    </string-array>
+    <string-array name="ask_question_beautiful_show">
+        <item>面部</item>
+        <item>颈部</item>
+        <item>肩部</item>
+        <item>背部</item>
+        <item>手臂</item>
+        <item>胸部</item>
+        <item>大腿</item>
+        <item>腰部</item>
+        <item>小腹</item>
+        <item>臀部</item>
+        <item>脚踝</item>
+        <item>小腿</item>
+        <item>足部</item>
+    </string-array>
+    <string-array name="ask_question_body_height">
+        <item>150-</item>
+        <item>150-157</item>
+        <item>158-163</item>
+        <item>164-168</item>
+        <item>169-172</item>
+        <item>172+</item>
+    </string-array>
+    <string-array name="ask_question_body_weight">
+        <item>45-</item>
+        <item>45-50</item>
+        <item>51-55</item>
+        <item>56-60</item>
+        <item>61-70</item>
+        <item>71+</item>
+    </string-array>
+    <string-array name="ask_question_facial_skin">
+        <item>鹅蛋脸</item>
+        <item>晶莹剔透</item>
+        <item>瓜子脸</item>
+        <item>自然偏黄</item>
+        <item>心形脸</item>
+        <item>易敏冒痘</item>
+        <item>圆脸</item>
+        <item>自然红润</item>
+        <item>方脸</item>
+        <item>活力小麦</item>
+        <item>长脸</item>
+        <item>斑斑点点</item>
+    </string-array>
+    <string-array name="ask_question_look_otherstyle">
+        <item>正常商谈</item>
+        <item>亲子时光</item>
+        <item>轻松办公</item>
+        <item>学生日常</item>
+        <item>重要长辈</item>
+        <item>浪漫约会</item>
+        <item>夜店嗨翻</item>
+        <item>姐妹小聚</item>
+        <item>泡健身房</item>
+        <item>美照之旅</item>
+        <item>飞机火车</item>
+        <item>隆重庆典</item>
+    </string-array>
+    <string-array name="ask_question_commend_mystyle">
+        <item>御姐气场强</item>
+        <item>韩系休闲</item>
+        <item>日系可爱</item>
+        <item>森女风</item>
+        <item>无敌混配</item>
+        <item>学院派</item>
+        <item>中国风</item>
+        <item>欧美风</item>
+        <item>名媛女神风</item>
+        <item>中性风</item>
+        <item>自成一格</item>
+        <item>朋克重金属</item>
+        <item>运动运动</item>
+        <item>一贯干练</item>
+        <item>没人评价过</item>
+    </string-array>
+    <string-array name="profession_item1">
+        <item>互联网软件</item>
+        <item>通信硬件</item>
+        <item>房地产建筑</item>
+        <item>文化传媒</item>
+        <item>金融类</item>
+        <item>消费品</item>
+        <item>汽车机械</item>
+        <item>教育翻译</item>
+        <item>贸易物流</item>
+        <item>生物医疗</item>
+        <item>能源化工</item>
+    </string-array>
+</resources>

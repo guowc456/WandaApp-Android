@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_btn_bg">#e7e5e6</color>
+    <color name="main_btn_color">#faafb9</color>
+    <color name="head_bg_color">#faafb9</color>
+    <color name="tablayout_select_color">#fbb0ba</color>
+    <color name="tablayout_normal_color">#999999</color>
+    <color name="mostpopular_bg_color">#e6e4e4</color>
+    <color name="mostpopular_fresh_color">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="mostpopular_item_title">#333333</color>
+    <color name="mostpopular_item_content">#666666</color>
+    <color name="self_tabs_indecator">#fbb0b9</color>
+    <color name="self_tabs_select">#fbb0b9</color>
+    <color name="self_tabs_normal">#999999</color>
+    <color name="animation_color">#ecebeb</color>
+    <color name="animation_bg_color">#969393</color>
+    <color name="black">#000000</color>
+    <color name="red">#d71010</color>
+    <color name="pop_bg_color">#faafb9</color>
+    <color name="line_color">#e4e2e2</color>
+    <color name="edit_comment_color">#e9e6e6</color>
+    <color name="item_mostpopular_head_bg_color">#dfdede</color>
+    <color name="pop_window_bg_color">#e4e2e2</color>
+    <color name="text_color">#7b7979</color>
+    <color name="domestic_bg_color">#efebeb</color>
+    <color name="profession_bg_color">#c98585</color>
+
+    <color name="pinpai_font_color">#938e8e</color>
+
+</resources>

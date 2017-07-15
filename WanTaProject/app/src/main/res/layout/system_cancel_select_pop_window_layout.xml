@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#cc454343"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="130dp"
+        android:layout_marginTop="180dp"
+        android:alpha="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/pop_window_bg_color"
+            android:orientation="vertical"
+            android:id="@+id/system_cancel_select_pop_window_message_layout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="真的要放弃辛苦编辑的搭配日志吗?"
+                android:id="@+id/system_cancel_select_pop_window_message_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="1"
+                android:background="@color/head_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="1"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:id="@+id/system_cancel_select_pop_window_cancel_layout">
+                    <TextView
+                        android:id="@+id/system_cancel_select_pop_window_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:textSize="17sp"
+                        android:gravity="center"
+                        android:text="含泪放弃"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/head_bg_color"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:id="@+id/system_cancel_select_pop_window_ok_layout">
+                    <TextView
+                        android:id="@+id/system_cancel_select_pop_window_ok"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:textSize="17sp"
+                        android:gravity="center"
+                        android:text="继续编辑"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

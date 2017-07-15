@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+
+    <!-- 实心 -->
+    <solid android:color="#6699FF"/>
+    <stroke android:color="#6699FF"/>
+    <!-- 圆角 -->
+    <corners android:radius="360dp"/>
+
+    <size android:width="15dp"
+          android:height="15dp" />
+
+</shape>

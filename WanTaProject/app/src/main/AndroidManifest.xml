@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wanta.mobile.wantaproject">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 获取精确位置 GPS芯片接收卫星的定位信息,定位精度达10米以内 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 通过WiFi或移动基站的方式获取用户错略的经纬度信息 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    <!-- <&#45;&#45;!在SD卡中创建与删除文件权限&ndash;&gt; -->
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+
+    <!-- 微信第三方登陆用到的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".uploadimage.DemoApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Vra1ZKbGjPh7wjRgQGlMF3eL426ggiTe" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
+
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ItemMostpopularActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WardrobeCalendarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".uploadimage.ImagesSelectorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ImagesPublishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ItemMostpopularCommentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PersonalDesignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ItemPersonDesigenMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PersonDesignLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WardrobeDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AskQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PersonDesignProfessionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".uploadimage.BigImageScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WardrobeCalendarDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TagsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LocationBaiduMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CommentResponseDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WardoreSingleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditeDiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewPublishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewPersonDesignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.WeiXinLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BodyDetailMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewPersonDesignLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".webview.WebViewActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.CeLiangBiaoZhunActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OtherAuthorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OtherAuthorInputPriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OtherAuthorInputDescriptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phonepics.PhonePicsSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phonecamera.LunchCameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OtherAuthorInputPinPaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TopicsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TopicsDetailMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewLocationBaiduMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RecommendedAttentionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChuanDaLingGanActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

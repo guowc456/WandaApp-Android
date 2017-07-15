@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/item_mostpopular_layout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingTop="12dp"
+              android:paddingBottom="6dp"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="@color/white"
+            android:id="@+id/item_camera_modify_meihua_img_bg_color">
+            <com.wanta.mobile.wantaproject.customview.CustomSimpleDraweeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/meihua_icon"
+                android:id="@+id/item_camera_modify_meihua_img"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="原图"
+            android:id="@+id/item_camera_modify_meihua_content"/>
+    </LinearLayout>
+</LinearLayout>

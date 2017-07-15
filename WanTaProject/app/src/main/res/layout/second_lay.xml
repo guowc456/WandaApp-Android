@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:id="@+id/second_layout"
+              >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center|left"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_title"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center|right"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/second_add_layout">
+        <com.wanta.mobile.wantaproject.customview.MyImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/second_add"
+            android:src="@mipmap/add"/>
+    </LinearLayout>
+
+
+</LinearLayout>

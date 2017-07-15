@@ -1,0 +1,4 @@
+以wanta.jks为签名文件
+key store password:wantaproject
+key alias:wanta
+key password:wantaproject

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/calendar_detail_publish_again_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.wanta.mobile.wantaproject.customview.CustomSimpleDraweeView
+            android:id="@+id/calendar_detail_publish_again_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/calender_detail_fragment_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calender_detail_bg_color"
+            android:padding="10dp"
+            android:text="今天的搭配和心情都是独一无二的，记录下来吧"
+            android:textColor="@color/head_bg_color" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/calendar_detail_publish_recycview"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
